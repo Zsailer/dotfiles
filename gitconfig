@@ -1,0 +1,21 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Zsailer
+	email = zachsailer@gmail.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[github]
+	user = Zsailer
+	token = 04b0bf200460b90558b230b9e472a0c1593d0985
+[color]
+    ui = auto
+[pull]
+    rebase = true
+[rebase]
+    autoStash = true
+[init]
+    defaultBranch = main
